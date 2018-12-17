@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Hanna Bulava">
+		<meta name="description" content="Multimedia sistem">
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/ionicons.min.css">
+		<link rel="stylesheet" href="assets/css/flexslider.css">
+		<link rel="stylesheet" href="assets/css/animsition.min.css">
+		<link rel="stylesheet" href="assets/css/animate.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/fox.ico">
+		<title>Курсовой проект</title>
+	</head>
+	<body class="animsition">
+
+		<header class="main-header">
+			<div class="container">
+				<div class="menu">
+					<nav class="desktop-nav">
+						<ul class="first-level">
+							<li>
+								<a href="index.html" class="animsition-link">
+									Главная
+								</a>
+							</li>
+							<li>
+								<a href="story.html" class="animsition-link">
+									Сюжет игры
+								</a>
+							</li>
+							<li>
+								<a href="control.html" class="animsition-link">
+									Управление в игре
+								</a>
+							</li>
+							<li>
+								<a href="game.html" class="animsition-link">
+									Играть онллайн
+								</a>
+							</li>
+							<li>
+								<a href="about.html" class="animsition-link">
+									Обо мне
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<div class="site-hero">
+			<ul class="slides">
+				<li>
+					<div>
+						<span class="small-title uppercase montserrat-text">
+							Курсовой проект
+						</span>
+					</div>
+					<div class="big-title uppercase montserrat-text">
+						The Little Fox
+					</div>
+				</li>
+			</ul>
+		</div>
+
+		<div class="container">
+			<div class="fox-preview">
+				<div class="col-md-5 col-sm-12">
+					<div class="row">
+						<img src="assets/img/fox.jpg" alt="image">
+					</div>
+				</div>
+				<div class="col-md-offset-1 col-md-6 col-sm-12">
+					<div class="row">
+						<div class="section-title">
+							<span>
+								История игры
+							</span>
+						</div>
+						<p class="section-title__description">
+							Эта игра основана на событиях из книги &#171;Маленький Принц&#187;, и в своём роде является её небольшой адаптацией.
+							Мы узнаем историю маленького лисёнка, которого постречал Маленький Принц.
+						</p>
+						<a href="services.html" class="btn purple">
+							<span>
+								Подробнее
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="assets/js/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.flexslider.js"></script>
+		<script type="text/javascript" src="assets/js/smoothScroll.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.animsition.min.js"></script>
+		<script type="text/javascript" src="assets/js/wow.min.js"></script>
+		<script type="text/javascript" src="assets/js/main.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			$(window).load(function() {
+				new WOW().init();
+				$('.site-hero').flexslider({
+					animation: "fade",
+					directionNav: false,
+					controlNav: false,
+					keyboardNav: true,
+					slideToStart: 0,
+					animationLoop: true,
+					pauseOnHover: false,
+					slideshowSpeed: 4000,
+				});
+			});
+		</script>
+	</body>
+</html>
