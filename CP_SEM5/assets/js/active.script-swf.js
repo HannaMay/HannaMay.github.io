@@ -150,14 +150,14 @@ function toggleDialog() {
 	//закрытие
 	if(dialogOn)
 	{
-		$("#dialog").animate({"margin-left":"-32px"}, 7000, function() {});
+		$("#dialog").animate({"margin-left":"-32px"}, 20000, function() {});
 		dialogOn=false;
 		timer=setInterval(alert_over_time, timeout);
 	}
 	//открытие
 	else
 	{
-		$("#dialog").animate({"margin-left":"-400px"}, 7000, function() {});
+		$("#dialog").animate({"margin-left":"-400px"}, 20000, function() {});
 		dialogOn=true;
 		clearInterval(timer);
 	}
